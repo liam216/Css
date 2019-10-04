@@ -1,0 +1,49 @@
+html{
+    overflow-y: overlay;
+    font-size: 312.5%;
+}
+body{
+    background: #68cdd5;
+    margin: 0 0;
+}
+
+img{
+    display: block;
+}
+
+body>img:nth-child(1){
+    width: .54rem;
+    height: .54rem;
+    margin-top: .21rem;
+    margin-left: .35rem;
+}
+body>img:nth-child(2){
+    width: 1.81rem;
+    height: .7rem;
+    margin: .42rem auto 1.24rem auto;
+}
+div{
+    display: inline-block;
+    width: 50vw;
+}
+/* 子元素选择器 */
+div>img{
+    width: .84rem;
+    height: .84rem;
+    margin: 0 auto;
+}
+div>p{
+    margin-top: .21rem;
+    font-size: 0.24rem;
+    text-align: center;
+}
+p{
+    font-size: 0.3rem;
+    color: #fff;
+}
+.desc{
+    width: 70vw;
+    margin: 0 auto 1.5rem auto;
+}
+
+
