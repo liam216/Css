@@ -22,6 +22,15 @@ body>img:nth-child(2){
     height: .7rem;
     margin: .42rem auto 1.24rem auto;
 }
+p{
+    color: #fff;
+}
+.desc{
+    font-size: 0.3rem;
+    display: block;
+    width: 70vw;
+    margin: 0 auto 1.5rem auto;
+}
 div{
     display: inline-block;
     width: 50vw;
@@ -37,13 +46,4 @@ div>p{
     font-size: 0.24rem;
     text-align: center;
 }
-p{
-    font-size: 0.3rem;
-    color: #fff;
-}
-.desc{
-    width: 70vw;
-    margin: 0 auto 1.5rem auto;
-}
-
 
